@@ -1,0 +1,84 @@
+/* HEADER */
+header{
+  height:80px;
+
+}
+img{
+  width:60px;
+}
+select {
+  padding-right: 100px;
+}
+
+/* MAIN */
+main{
+  height:80vh;
+  background-color:aquamarine;
+}
+/* .easy-container,
+.average-container,
+.crazy-container{
+  width:400px;
+  height:400px;
+  
+  flex-wrap: wrap;
+  padding:0;
+  display: none;
+} */
+.container{
+  width:400px;
+  height:400px;
+  display:flex;
+  flex-wrap: wrap;
+  padding:0;
+  justify-content: center;
+}
+
+
+/* FOOTER */
+footer{
+  height:40px;
+}
+.made-by{
+  line-height:40px;
+  padding-left: 100px;
+}
+
+
+/* SQUARE */
+.square{
+display:flex;
+justify-content: center !important;
+align-items: center !important;
+border:  1px solid black;
+cursor: pointer;
+}
+
+
+.easy{
+  height: calc(100%/10);
+  width: calc(100%/10);
+}
+.average{
+  height: calc(100%/9);
+  width: calc(100%/9);
+}
+.crazy{
+  height: calc(100%/7);
+  width: calc(100%/7);
+}
+
+
+
+
+.square-choise-right{
+  background-color: cornflowerblue;
+  color:white;
+}
+.square-choise-wrong{
+  background-color: red;
+  color:white;
+}
+.square:hover{
+  border: 4px solid black;
+}
